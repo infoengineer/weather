@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InfoEngineer Погода</string>
+    <string name="temperature_out">Температура на улице</string>
+    <string name="temperature_in">Температура дома</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="no_data"> — </string>
+</resources>

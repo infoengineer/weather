@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ru.infoengineer.weather.MainActivity">
+
+    <TextView
+        android:id="@+id/temperature_out_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/caveat_regular"
+        android:gravity="center"
+        android:text="@string/temperature_out"
+        android:textFontWeight="700"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/temperature_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost"
+        android:gravity="center"
+        android:paddingTop="4sp"
+        android:paddingBottom="20sp"
+        android:text="@string/no_data"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/temperature_in_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_regular"
+        android:gravity="center"
+        android:text="@string/temperature_in"
+        android:textFontWeight="700"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/temperature_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost"
+        android:gravity="center"
+        android:paddingTop="4sp"
+        android:paddingBottom="20sp"
+        android:text="@string/no_data"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/humidity_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_regular"
+        android:gravity="center"
+        android:text="@string/humidity"
+        android:textFontWeight="700"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost"
+        android:gravity="center"
+        android:paddingTop="4sp"
+        android:paddingBottom="20sp"
+        android:text="@string/no_data"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/pressure_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/caveat_regular"
+        android:gravity="center"
+        android:text="@string/pressure"
+        android:textFontWeight="700"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jost"
+        android:gravity="center"
+        android:paddingTop="4sp"
+        android:paddingBottom="20sp"
+        android:text="@string/no_data"
+        android:textSize="36sp" />
+
+</LinearLayout>
